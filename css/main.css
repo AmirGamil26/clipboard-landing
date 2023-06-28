@@ -1,0 +1,486 @@
+/* *********** Reset ************** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('../fonts/BaiJamjuree-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('../fonts/BaiJamjuree-SemiBold.ttf');
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 18px;
+}
+/* *********** General ************** */
+body{
+    text-align: center;
+    font-family: 'Bai Jamjuree';
+}
+/* *********** Main ************** */
+/* ******** Start Header Section **********/
+header{
+    background: url('../img/bg-header-desktop.png');
+    background-size: cover;
+    padding: 20px 350px;
+}
+header img{
+    margin: 10px 0;
+}
+header h1{
+    margin: 15px 0;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 25px;
+}
+header p{
+    color: var(--Grayish-Blue);
+    margin: 25px 0;
+}
+header .btn1{
+    padding: 15px 40px;
+    background-color: var(--Strong-Cyan);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+header .btn1:hover{
+    box-shadow: 0px 0px 2px 1px var(--Strong-Cyan), 0px 0px 2px 1px var(--Strong-Cyan);
+}
+header .btn2{
+    padding: 15px 40px;
+    background-color: var(--Light-Blue);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+header .btn2:hover{
+    box-shadow: 0px 0px 2px 1px var(--Light-Blue), 0px 0px 2px 1px var(--Light-Blue);
+}
+/* ******** End Header Section **********/
+/* ******** First Second Section **********/
+.track{
+    margin: 50px 0;
+    padding: 30px 30px;
+    font-family: 'Bai Jamjuree';
+}
+.track h1{
+    text-align: center;
+    color: var(--Dark-Grayish-Blue);
+    padding-top: 50px;
+}
+.track p{
+    color: var(--Grayish-Blue);
+    margin: 25px auto;
+    padding: 15px 0;
+    line-height: 1.6;
+    max-width: 695px;
+}
+/* ******** End Second Section **********/
+/* ******** Start Third Section **********/
+.new-features{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    font-family: 'Bai Jamjuree';
+}
+.new-features .img{
+    width: 50%;
+}
+.new-features .img img{
+    width: 80%;
+    height: 100%;
+}
+.new-features .features{
+    text-align: left;
+    width: 50%;
+}
+.new-features .features .quick{
+    margin: 50px 0;
+    padding: 0 145px;
+    color: var(--Dark-Grayish-Blue);
+}
+.new-features .features .quick h4{
+    margin: 10px 0;
+    font-size: 22px;
+}
+.new-features .features .quick p{
+    color: var(--Grayish-Blue);
+    line-height: 1.6;
+}
+.new-features .features .icloud{
+    margin: 50px 0;
+    padding: 0 145px;
+    color: var(--Dark-Grayish-Blue);
+}
+.new-features .features .icloud h4{
+    margin: 10px 0;
+    font-size: 22px;
+}
+.new-features .features .icloud p{
+    color: var(--Grayish-Blue);
+    line-height: 1.6;
+}
+.new-features .features .complete{
+    margin: 50px 0;
+    padding: 0 145px;
+    color: var(--Dark-Grayish-Blue);
+}
+.new-features .features .complete h4{
+    margin: 10px 0;
+    font-size: 22px;
+}
+.new-features .features .complete p{
+    color: var(--Grayish-Blue);
+    line-height: 1.6;
+}
+/* ******** End Third Section **********/
+/* ******** Start Fourth Section **********/
+.access-clipboard{
+    font-family: 'Bai Jamjuree';
+    margin: 80px 0;
+}
+.access-clipboard .clipboard-anywhere{
+    width: 60%;
+    margin: 70px auto;
+}
+.access-clipboard .clipboard-anywhere h1{
+    text-align: center;
+    color: var(--Dark-Grayish-Blue);
+    padding-top: 50px;
+    font-size: 22px;
+}
+.access-clipboard .clipboard-anywhere p{
+    padding: 10px 70px;
+    color: var(--Grayish-Blue);
+    line-height: 1.6;
+}
+/* ******** End Fourth Section **********/
+/* ******** Start Fifth Section **********/
+.supercharge-workflow{
+    margin: 15px 0;
+    font-family: 'Bai Jamjuree';
+}
+.supercharge-workflow .supercharge{
+    margin-bottom: 20px;
+}
+.supercharge-workflow .supercharge h1{
+    text-align: center;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.supercharge-workflow .supercharge p{
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+    line-height: 1.6;
+}
+.supercharge-workflow .workflow{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 50px 0;
+    font-family: 'Bai Jamjuree';
+}
+.supercharge-workflow .workflow .blacklists{
+    padding: 10px 45px;
+}
+.supercharge-workflow .workflow .blacklists h4{
+    color: var(--Dark-Grayish-Blue);
+    margin: 15px 0;
+}
+.supercharge-workflow .workflow .blacklists p{
+    color: var(--Grayish-Blue);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.supercharge-workflow .workflow .text{
+    padding: 10px 50px;
+}
+.supercharge-workflow .workflow .text h4{
+    color: var(--Dark-Grayish-Blue);
+    margin: 15px 0;
+}
+.supercharge-workflow .workflow .text p{
+    color: var(--Grayish-Blue);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.supercharge-workflow .workflow .preview{
+    padding: 10px 40px;
+}
+.supercharge-workflow .workflow .preview h4{
+    color: var(--Dark-Grayish-Blue);
+    margin: 15px 0;
+}
+.supercharge-workflow .workflow .preview p{
+    color: var(--Grayish-Blue);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.supercharge-workflow .companies{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 10px;
+}
+/* ******** End Fifth Section **********/
+/* ******** Start Sixth Section **********/
+.clipboard-for{
+    margin: 80px 0;
+    padding: 20px 330px;
+}
+.clipboard-for h1{
+    margin: 15px 0;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 25px;
+}
+.clipboard-for p{
+    color: var(--Grayish-Blue);
+    margin: 25px 0;
+    line-height: 1.6;
+}
+.clipboard-for .btn1{
+    padding: 15px 40px;
+    background-color: var(--Strong-Cyan);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.clipboard-for .btn1:hover{
+    box-shadow: 0px 0px 2px 1px var(--Strong-Cyan), 0px 0px 2px 1px var(--Strong-Cyan);
+}
+.clipboard-for .btn2{
+    padding: 15px 40px;
+    background-color: var(--Light-Blue);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.clipboard-for .btn2:hover{
+    box-shadow: 0px 0px 2px 1px var(--Light-Blue), 0px 0px 2px 1px var(--Light-Blue);
+}
+/* ******** End Sixth Section **********/
+/* ******** Start Seventh Section **********/
+.foot{
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.foot .img1 img{
+    width: 50px;
+    height: 50px;
+    margin: 50px 70px;
+}
+.foot .nav{
+    color: var(--Dark-Grayish-Blue);
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 200px;
+}
+.foot .nav p{
+    line-height: 1.8;
+    font-size: 18px;
+}
+.foot .social-media{
+    padding-top: 50px;
+}
+.foot .social-media a{
+    font-size: 30px;
+    margin-right: 10px;
+}
+/* ******** End Seventh Section **********/
+/* ******** Start Footer Section **********/
+footer{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Bai Jamjuree';
+    color: var(--Light-Blue);
+}
+/* ******** End Footer Section **********/
+
+/* ============================================================ */
+/* *********** Media Query ************** */
+@media screen and (max-width: 768px){
+    /* Start header section */
+    header{
+        background: url('../img/bg-header-mobile.png');
+        background-size: cover;
+        padding: 30px 15px ;
+    }
+    header img{
+        max-width: 100%;
+
+    }
+    header h1{
+        max-width: 100%;
+        text-align: center;
+    }
+    header p{
+        line-height: 1.6;
+    }
+    header .btn1{
+        padding: 15px 80px;
+        margin-bottom: 20px;
+    }
+    header .btn2{
+        padding: 15px 80px;
+    }
+    /* End header section */
+    /* Start Second section */
+    .track{
+        padding: 20px 30px;
+    }
+    track p{
+        padding: 15px 0;
+        max-width: 100%;
+    }
+    /* End Second section */
+    /* Start Third section */
+    .new-features{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .new-features .img {
+        width: 100%;
+        height: 100%;
+    }
+    .new-features .features{
+        width: 100%;
+        text-align: center;
+    }
+    .new-features .features .quick{
+        padding: 0 30px;
+    }
+    .new-features .features .icloud{
+        padding: 0 30px;
+    }
+    .new-features .features .complete{
+        padding: 0 30px;
+    }
+    /* End Third section */
+    /* Start Fourth section */
+    .access-clipboard .clipboard-anywhere{
+        width: 100%;
+    }
+    .access-clipboard .clipboard-anywhere p{
+        padding: 10px 10px;
+    }
+    /* End Fourth section */
+    /* Start Fifth section */
+    .supercharge-workflow .supercharge{
+        padding: 10px 40px;
+    }
+    .supercharge-workflow .workflow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .supercharge-workflow .workflow .blacklists{
+        padding: 10px 20px;
+    }
+    .supercharge-workflow .workflow .text{
+        padding: 10px 20px;
+    }
+    .supercharge-workflow .workflow .preview{
+        padding: 10px 20px;
+    }
+    .supercharge-workflow .companies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .supercharge-workflow .companies img{
+        margin: 30px;
+    }
+    /* End Fifth section */
+    /* Start Sixth section */
+    .clipboard-for{
+        padding: 20px 30px;
+    }
+    .clipboard-for .btn1{
+        padding: 15px 80px;
+        margin-bottom: 20px;
+    }
+    .clipboard-for .btn2{
+        padding: 15px 80px;
+    }
+    /* End Sixth section */
+    /* Start Seventh section */
+    .foot{
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+    }
+    /* End Seventh section */
+    /* Start Footer section */
+    footer{
+        font-size: 14px;
+    }
+    /* End Footer section */
+    
+
+}
